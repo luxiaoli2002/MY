@@ -1,30 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\WorkSpace\\SOHO\\MY\\MY.Web\\MY.Web\\MY.Web.csproj": {}
+    "/home/alex/dotnet/MY/MY.Web.csproj": {}
   },
   "projects": {
-    "C:\\WorkSpace\\SOHO\\MY\\MY.Web\\MY.Web\\MY.Web.csproj": {
+    "/home/alex/dotnet/MY/MY.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WorkSpace\\SOHO\\MY\\MY.Web\\MY.Web\\MY.Web.csproj",
+        "projectUniqueName": "/home/alex/dotnet/MY/MY.Web.csproj",
         "projectName": "MY.Web",
-        "projectPath": "C:\\WorkSpace\\SOHO\\MY\\MY.Web\\MY.Web\\MY.Web.csproj",
-        "packagesPath": "C:\\Users\\Xiaoli Lu\\.nuget\\packages\\",
-        "outputPath": "C:\\WorkSpace\\SOHO\\MY\\MY.Web\\MY.Web\\obj\\",
+        "projectPath": "/home/alex/dotnet/MY/MY.Web.csproj",
+        "packagesPath": "/home/alex/.nuget/packages/",
+        "outputPath": "/home/alex/dotnet/MY/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Xiaoli Lu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/alex/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
