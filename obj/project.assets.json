@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.2": {
+      "Baidu.AI/3.6.13": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "10.0.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/AipSdk.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AipSdk.dll": {}
+        }
+      },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
         "type": "package",
         "dependencies": {
@@ -4442,6 +4454,22 @@
     }
   },
   "libraries": {
+    "Baidu.AI/3.6.13": {
+      "sha512": "X/G/WiucBmPJYxx+sZZYi4M6cPAPj/bwhImXDBqJgkvisoc7+vcyMHgvfQDEGBVuhOnH37V8o9R87T1qXphS5Q==",
+      "type": "package",
+      "path": "baidu.ai/3.6.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "baidu.ai.3.6.13.nupkg.sha512",
+        "baidu.ai.nuspec",
+        "lib/net35/AipSdk.dll",
+        "lib/net35/AipSdk.xml",
+        "lib/net40/AipSdk.dll",
+        "lib/net45/AipSdk.dll",
+        "lib/netstandard2.0/AipSdk.dll"
+      ]
+    },
     "Microsoft.AspNet.WebApi.Client/5.2.6": {
       "sha512": "owAlEIUZXWSnkK8Z1c+zR47A0X6ykF4XjbPok4lQKNuciUfHLGPd6QnI+rt/8KlQ17PmF+I4S3f+m+Qe4IvViw==",
       "type": "package",
@@ -12063,6 +12091,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
+      "BAIDU.AI >= 3.6.13",
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
       "Microsoft.NETCore.App >= 2.2.0"
@@ -12107,6 +12136,10 @@
     "frameworks": {
       "netcoreapp2.2": {
         "dependencies": {
+          "BAIDU.AI": {
+            "target": "Package",
+            "version": "[3.6.13, )"
+          },
           "Microsoft.AspNetCore.App": {
             "suppressParent": "All",
             "target": "Package",
